@@ -3,5 +3,19 @@ body{
 }
 
 h1{
-    color: orange;
+    font-size: 50px;
 }
+
+.orange-color{
+    color:orange;
+}
+
+.btn-style{
+    background-image: linear-gradient(to right, yellow, orange);
+    padding: 7px 10px;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+
