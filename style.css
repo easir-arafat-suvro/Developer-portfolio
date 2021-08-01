@@ -52,9 +52,42 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-.Experiances-card{
-    margin: 20px 100px;
 
-    border: 2px solid green;
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
+.experiance-align{
+    text-align: center;
+}
+
+.Experiances-card{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 35px;
+    padding-bottom: 70px;
+    border-radius: 10px;    
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-div-exp{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+}
+
+#full-stack-div{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow, darkorange) ;
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+    margin-top: 50px;
+    padding-top: 100px;
+}
